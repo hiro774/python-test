@@ -1,5 +1,5 @@
-age = 20
-# print("私は" + str(age) + "歳です。")
+def greet(name):
+    return "Hi! " + name
 
-my_list = ["apple", "banana", "cherry"]
-print(f"果物：{my_list[2]}")
+
+print(greet("Tom"))
